@@ -1,0 +1,60 @@
+.timer-wrapper {
+	background-color: #f4f4f4;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	overflow-x: hidden;
+	background: #1F1C2C;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+
+.time {
+	border: 2px dashed #b85acd;
+	text-align: center;
+	padding:  30px 0;
+	width: 200px;
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 30px;
+	background: #EECDA3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+
+button {
+	background: #d9a7c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 30px;
+	padding: 10px 20px;
+	cursor: pointer;
+	}
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 500px;
+	}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	/*transition: 1s ease 0.3s;*/
+	transition: 1s cubic-bezier(0.4, 0, 1, 0.85) 0.3s
+	}

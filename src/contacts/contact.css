@@ -1,8 +1,11 @@
-body {
+.contacts-wrapper {
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
 	background-color: cadetblue;
+	}
+input[type="checkbox"] {
+	cursor: pointer;
 	}
 caption {
 	font-size: 32px;
